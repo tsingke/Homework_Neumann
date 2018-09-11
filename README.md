@@ -14,13 +14,13 @@
 
 请基于上述基本需求设计学生成绩管理系统，要求采用`多文件模块编程方法`完成该成绩管理系统的设计与实现。
 
-(b) 将成绩管理系统实现源码提交到Github指定的repository仓库内(提交地址如下)。要求以个人名字命名作业根文件夹（如李雷），其下将作业源代码文件（命名：第1次实验）放到该文件夹下，然后将其push到本项目内。
+(b) 将成绩管理系统实现源码提交到Github指定的repository仓库内(提交地址如下)。要求以个人名字命名作业根文件夹（如李雷），其下将作业源代码文件（命名：Experiment_1）放到该文件夹下，然后将其push到本项目内。
 
 作业文件路径范例： 
 
-`homework/李雷/第1次实验/source code`
+`homework/李雷/Experiment_1/source code`
 
-`homework/韩梅/第1次实验/source code`
+`homework/韩梅/Experiment_1/source code`
 
 
 ## 二、实验说明
