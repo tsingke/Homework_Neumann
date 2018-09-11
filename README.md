@@ -16,14 +16,21 @@
 2.  将成绩管理系统实现源码提交到Github指定的repository仓库内(就是这个`Homework_Neumann/` 仓库)。
  
  ```
- 作业提交过程：先下载本项目到本地；然后复制一份`李雷`的文件夹，接着把`李雷`的文件夹重命名为自己的文件夹，替换里面相应内容；最后push提交自己的作业。
+ **作业提交过程**：
+ * 先下载本项目到本地: $git clone git@github.com:tsingke/Homework_Neumann.git
+
+ * 然后复制一份`李雷`的文件夹，接着把`李雷`的文件夹重命名为自己的文件夹，替换里面相应内容；
+ 
+ * 最后push提交自己的作业: $git push 
+ 
+```
 
 作业文件路径范例： 
 
 `homework/李雷/Experiment_1/source code`
 
 `homework/韩梅/Experiment_1/source code`
-```
+
 
 
 
