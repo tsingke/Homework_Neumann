@@ -15,8 +15,9 @@
 
 2. 将成绩管理系统实现源码提交到Github指定的repository仓库内(就是这个`Homework_Neumann/` 仓库)。
  
+ **作业提交过程**
+ 
  ```
- **作业提交过程**：
  
  * 先下载本项目到本地: $git clone git@github.com:tsingke/Homework_Neumann.git
 
