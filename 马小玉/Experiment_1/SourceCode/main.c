@@ -1,63 +1,21 @@
-/*************************************************
-** 功能 : 学生成绩管理系统
-** 作者 : Qingke Zhang/tsingke@sdnu.edu.cn
-** 版本 : 2018-9-2 / 17:13
-** 版权 : GNU General Public License(GNU GPL)
-/**************************************************/
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <windows.h>
-#include "score.h"
-
-
-/*----------------------------------*
-		  Main Function
-*-----------------------------------*/
-
+#include<stdio.h>
+#include<string.h>
+#include"score.h"
+#include<stdlib.h>
+#include<math.h>
+#define N 6
+struct student stu[6];
 int main()
 {
-
-
-	printf("******************************\n");
-	printf("       学生成绩管理分析系统        \n");
-	printf("         Qingke Zhang            \n");
-	printf("******************************\n\n");
-
-
-	/*-1.变量初始化-*/
-	int N = 0;        //学生总数
-
-	SS  *pstu = NULL;    //结构体数组指针
-
-
-	//2.选择一种读取学生信息的方法(手动输入法,或者从文件读取到内存)
-	//2.1 读取文件法
-
-	pstu = readDataFromFile(&N);
-
-
-	/*2.2手动输入学生信息法-*/
-	//printf("请输入学生数目:");
-	//scanf("%d", &N);
-	//readData(pstu, N);
-
-
-	/*-3.计算学生总成绩（总成绩 = 平时成绩 + 期末成绩--*/
-	calcuScore(pstu, N);
-
-	/*-4.根据学生成绩排名-*/
-	sortScore(pstu, N);
-
-	/*-5.按照排名输出学生信息-*/
-	printOut(pstu, N);
-
-
-	free(pstu);//释放动态内存空间
-
-	printf("\n");
-	system("pause");
-
-
+	int i;
+	double a;//总评成绩
+		for (i = 0; i < 6; i++)
+		{
+			struct student stu[6] = { { 2017000001, "姚期智", 90, 85, 98 }, { 2017000002, "周光远", 85, 87, 92 }, { 2017000003, "孙家栋", 89, 84, 96 },
+			{ 2017000004, "杨芙清", 95, 76, 98 }, { 2017000005, " 张朝阳", 78, 80, 88 }, { 2017000006, " 李彦弘", 82, 90, 85 } };
+			a = stu[i].dailyscore*0.2 + stu[i].finalscore*0.6 + stu[i].experiscore*0.2;
+			printf("%d\n", a);
+		}
+	int printOut(struct student stu[]);
 	return 0;
 }

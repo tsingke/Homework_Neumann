@@ -1,49 +1,18 @@
-/*************************************************
-* Head File   : SCORE.h
-* File Usage  : 学生管理系统头文件
-* Create Time : 2018-9-2/17:25
-/**************************************************/
-
-#ifndef __SCORE_H__
-#define __SCORE_H__
-
-
-#include <stdio.h>
-
-/*----------------------------------*
-    Function Declaration
-*-----------------------------------*/
-
-typedef struct 
+#include<stdio.h>
+#include<math.h>
+struct student
 {
-	char number[10];  //学号
-	char name[10];    //姓名
-	float dailyScore;   //平时成绩
-	float finalScore;   //期末成绩
-	float generalScore; //总评成绩
-	
-}SS;
-
-
-/*---------------函数声明-------------------*/
-
-//1.读取学生基本数据
-void readData(SS stu[], int N);
-SS* readDataFromFile(int *N);
-
-//2.计算N个学生的总评成绩
-void calcuScore(SS stu[], int N);
-
-
-//3.根据总评成绩排名
-void sortScore(SS stu[], int N);
-
-
-//4.按照一定的格式输出N个学生的完整信息
-void printOut(SS stu[], int N);
-
-
- 
-
-#endif
-
+	int number;//学号
+	char name[20];//姓名
+	float dailyscore;//平时成绩
+	float finalscore;//期末成绩
+	float experiscore;//实验成绩
+	double generalscore;//总评成绩
+	int place;//名次
+};
+/*函数声明*/
+int  readData(struct student stu[]);//输入N个学生的学号，姓名，平时及期末，实验成绩
+int  calcuScore(struct student stu[]);//计算N个学生的总评成绩
+int  sortScore(struct student stu[]);//根据总评成绩排名，得出每个学生的名次
+int  printOut(struct student stu[]);//输出N个学生的完整信息
+struct student stu[6];
