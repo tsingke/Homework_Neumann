@@ -14,11 +14,12 @@ using namespace std;
 //学生结构体
 struct SS
 {
-	char number[20];  //学号
+	long number;  //学号
 	char name[20];    //姓名
 	float dailyScore;   //平时成绩
 	float finalScore;   //期末成绩
 	float generalScore; //总评成绩
+	float text;//实验成绩
 	int rank;//名次
 };
 
@@ -35,5 +36,9 @@ void sortScore(SS stu[], int N);
 void printOut(SS stu[], int N);
 //写入Excel文档
 void putintoExcel(SS stu[],int N);
+//输入学号即可查询功能
+void inSpect(SS stu[],int N);
+//求方差及平均值
+void calculate(SS stu[],int N);
 
 #endif

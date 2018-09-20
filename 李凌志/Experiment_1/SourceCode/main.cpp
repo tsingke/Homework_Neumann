@@ -18,6 +18,7 @@ void main()
 	cout << "******************************\n\n";
 
 	int N = 0;//学生总数
+	char c[20];//查询学号
 	SS  *pstu = NULL;
 	cout << "开始数据读取——————>>>)" << endl;
 	
@@ -32,6 +33,11 @@ void main()
 	printOut(pstu, N);
 	//写入Excel文档
 	putintoExcel(pstu,N);
+	//输入学号即可查询功能
+    inSpect(pstu,N);
+	//求方差及平均值
+	calculate(pstu,N);
 	system("pause");
+
 
 }
