@@ -27,6 +27,8 @@ OOP课程作业项目：第1次实验
  * 5 接着添加版本修改标记：      $ git commit -m "自己在引号内写注释内容"
  * 6 最后推送作业到本项目:       $ git push origin master
 ```
+如果想继续修改作业，请先执行：$git pull 命令，先保持和群作业同步，然后再执行git add . , git commit 和 git push 操作
+
 
 作业文件路径范例： 
 
