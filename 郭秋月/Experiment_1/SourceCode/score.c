@@ -1,7 +1,7 @@
 /*************************************************
 ** 源文件   : score.c
 ** 功能说明 : Function Definations
-** 创建时间 : 2018-9-2/17:35
+** 创建时间 : 2018-9-21/8:35
 /**************************************************/
 
 /*----------------头文件--------------*/
@@ -53,7 +53,7 @@ SS* readDataFromFile(int *N)
 	}
 	else
 	{
-		printf("failed to open the info file\n");
+		printf("读取失败\n");
 		getchar();
 	}
 
@@ -69,7 +69,7 @@ SS* readDataFromFile(int *N)
 	while ((!feof(fp)) && (index < count))
 	{
 
-		//读入文件数据到内存	
+		//读入文件数据到内存
 		fscanf(fp, "%s%s%f%f\n", (stu[index].number), (stu[index].name), &stu[index].dailyScore, &stu[index].finalScore);
 
 		//输出原始学生信息

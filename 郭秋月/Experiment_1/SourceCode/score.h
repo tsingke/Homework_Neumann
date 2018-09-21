@@ -1,7 +1,7 @@
 /*************************************************
 * Head File   : SCORE.h
 * File Usage  : 学生管理系统头文件
-* Create Time : 2018-9-2/17:25
+* Create Time : 2018-9-21/8:25
 /**************************************************/
 
 #ifndef __SCORE_H__
@@ -14,15 +14,15 @@
     Function Declaration
 *-----------------------------------*/
 
-typedef struct 
+struct SS
 {
 	char number[10];  //学号
 	char name[10];    //姓名
 	float dailyScore;   //平时成绩
 	float finalScore;   //期末成绩
 	float generalScore; //总评成绩
-	
-}SS;
+
+};
 
 
 /*---------------函数声明-------------------*/
@@ -43,7 +43,8 @@ void sortScore(SS stu[], int N);
 void printOut(SS stu[], int N);
 
 
- 
+
 
 #endif
+
 
