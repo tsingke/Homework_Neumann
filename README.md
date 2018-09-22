@@ -24,7 +24,7 @@
 ### 2.后-提交作业（学会即可）
 `说明1： 没有提交过作业，也就是第一次提交作业的同学，请依次执行下面的命令：`
 ```
-1. 克隆远程作业: $ git clone git@github.com:tsingke/Homework_Turing.git 
+1. 克隆远程作业: $ git clone git@github.com:tsingke/Homework_Neumann.git 
 
 2. 在作业文件夹里添加个人文件夹，然后在里面添加已写好的作业(程序代码+程序结果截图)
 
