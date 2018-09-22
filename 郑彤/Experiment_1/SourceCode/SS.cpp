@@ -124,8 +124,21 @@ void SS::sqrtData()
 	float av=0,s=0;
 	av=(a.generalScore+b.generalScore+c.generalScore+d.generalScore+e.generalScore+f.generalScore)/6;
 	cout<<"总评成绩均值为："<<av<<endl;
-	s=(pow((a.generalScore-av),2)+pow((b.generalScore-av),2)+pow((c.generalScore),2)+pow((d.generalScore),2)+pow((e.generalScore),2)+pow((f.generalScore-av),2));
+	s=((pow((a.generalScore-av),2)+pow((b.generalScore-av),2)+pow((c.generalScore-av),2)+pow((d.generalScore-av),2)+pow((e.generalScore-av),2)+pow((f.generalScore-av),2)))/6;
 	cout<<"总评成绩方差为："<<s<<endl;
+}
+
+
+
+void SS::output()
+{
+	cout<<"学号+姓名+总评成绩"<<endl;
+	cout<<a.number <<a.name <<a.generalScore <<endl
+		<<b.number <<b.name <<b.generalScore <<endl
+		<<c.number <<c.name <<c.generalScore <<endl
+		<<d.number <<d.name <<d.generalScore <<endl
+		<<e.number <<e.name <<e.generalScore <<endl
+		<<f.number <<f.name <<f.generalScore<<endl;
 }
 
 main()
@@ -134,4 +147,5 @@ main()
 	m.readData();
 	m.calcuScore(m);
 	m.sqrtData();
+	m.output();
 }

@@ -27,8 +27,9 @@ private:
 public:
 	void readData(); //输入当前学生的学号、姓名、平时、实验及期末成绩
 	void rankScore();//求排名
-	void sqrtData();
+	void sqrtData();//求平均值和方差
 	void calcuScore(SS );//计算当前学生的总评成绩
+	void output();//输出学生信息
 };
 
 #endif // !defined(AFX_SS_H__4A521E86_3E89_4290_8758_CB03E2CFF5F5__INCLUDED_)
