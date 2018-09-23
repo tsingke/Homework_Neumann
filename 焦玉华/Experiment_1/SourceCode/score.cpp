@@ -80,7 +80,7 @@ void serch(SD stu[],int n)
 	int i;
 	for (i = 0; i < n; i++)
 	{
-		if (strcmp(stu[k].number ,stu[i].number) == 0)
+		if (stu[k].number ,stu[i].number)
 		{
 			k = i;
 			break;
