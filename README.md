@@ -10,6 +10,8 @@
 
 ![ssh](https://github.com/tsingke/Homework_Neumann/blob/master/%E3%80%90%E4%BD%9C%E4%B8%9A%E4%BB%BB%E5%8A%A1%E3%80%91/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF/ssh.png)
 
+>> 注意：请同学们打开自己c盘下面的.ssh文件夹，检查下有没有修改该目录下公钥文件id_rsa.pub的名字，如果已重命名，请再改回来，否则作业无法提交！！
+
 ----
 ### 1. 先-配置git信息（自报家门）
 任何同学第一次使用git前，先给自己的机器配置好名字,这样你提交作业时，才知道作业的实际贡献者是谁
