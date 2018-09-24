@@ -102,7 +102,7 @@ void calculate(SD stu[], int n)
 	float p=0,s;
 	for (i=0; i < n; i++)
 	{
-		p= (float)(p + (stu[i].generalscore - sum / n)*(stu[i].generalscore - sum /n));
+		p+= (float)((stu[i].generalscore - sum )/ n)*((stu[i].generalscore - sum) /n));
 	}
 	s = (float)(p/ n);
 	cout << "·½²îÎª£º " << s<< endl;
