@@ -40,7 +40,7 @@
  
 4. $ git add .  
 
-5. $ git commit -m "第一次提交作业"
+5. $ git commit -m "第x次实验作业-2018年9月10日"
 
 6. $ git push origin master
 
