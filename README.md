@@ -40,7 +40,7 @@
  
 4. $ git add .  
 
-5. $ git commit -m "第x次实验作业-2018年9月10日"
+5. $ git commit -m "第x次实验作业-时间"
 
 6. $ git push origin master
 
@@ -58,7 +58,7 @@
 
 2. $ git add .
 
-3. $ git commit -m "modify my homework"
+3. $ git commit -m "第x次实验作业(提交或修改)"
 
 4. $ git push origin master
 
