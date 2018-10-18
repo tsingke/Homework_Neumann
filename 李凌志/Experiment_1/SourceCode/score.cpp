@@ -144,7 +144,7 @@ void calculate(SS stu[],int N)
 	i = 0;
 	for (; i < N; i++)
 	{
-		b = (float)(b + (stu[i].generalScore - SUM )*(stu[i].generalScore - SUM ));
+		b = (float)(b + (stu[i].generalScore - SUM )*(stu[i].generalScore - SUM));
 	}
 	c = (float)(b / i);
 	cout << "·½²îÎª£º" << c << endl;
