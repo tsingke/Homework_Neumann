@@ -32,7 +32,7 @@ int main()
 	try
 	{
 		score=checkAgeScore(A.age, A.score);
-		cout << "name: " << A.name << ", age: " << A.age << ", score: " << score2 << endl;
+		cout << "name: " << A.name << ", age: " << A.age << " score: " << endl;
 	}
 	catch (int)//²¶»ñÒì³£ÄêÁä
 	{
@@ -42,5 +42,6 @@ int main()
 	{
 		cout << "Warning: Score is wrong!";
 	}
-	system("pause");
+	
+system("pause");
 }
