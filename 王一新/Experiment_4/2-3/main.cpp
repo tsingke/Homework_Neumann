@@ -68,6 +68,7 @@ int main()
 			cout << ptr[i] << " ";
 	}
 	cout << endl;
+	delete ptr;
 	system("pause");
 
 
