@@ -47,6 +47,12 @@
    
    * 编译调试(F5) 
    ```
+   
+   ## 三、参考代码
+   
+   ![image](https://github.com/tsingke/Homework_Neumann/blob/master/%E3%80%90%E4%BD%9C%E4%B8%9A%E4%BB%BB%E5%8A%A1%E3%80%91/%E5%AE%9E%E9%AA%8C8%EF%BC%9A%E4%BB%BB%E5%8A%A1%E8%A6%81%E6%B1%82-12.13/SourceCode/code_1.png)
+    ![image](https://github.com/tsingke/Homework_Neumann/blob/master/%E3%80%90%E4%BD%9C%E4%B8%9A%E4%BB%BB%E5%8A%A1%E3%80%91/%E5%AE%9E%E9%AA%8C8%EF%BC%9A%E4%BB%BB%E5%8A%A1%E8%A6%81%E6%B1%82-12.13/SourceCode/code_2.png)
+     ![image](https://github.com/tsingke/Homework_Neumann/blob/master/%E3%80%90%E4%BD%9C%E4%B8%9A%E4%BB%BB%E5%8A%A1%E3%80%91/%E5%AE%9E%E9%AA%8C8%EF%BC%9A%E4%BB%BB%E5%8A%A1%E8%A6%81%E6%B1%82-12.13/SourceCode/code_3.png)
 
 
 
